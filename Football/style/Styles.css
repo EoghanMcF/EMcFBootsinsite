@@ -1,0 +1,289 @@
+html, body {
+    height: 100%;
+    margin: 0%; 
+    padding: 0px; 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+header
+{ 
+   background-image: url(../images/pngtree-football-stadium-wide-angle-scene-photography-advertising-background-picture-image_2402004.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+   height: 200px;
+   color: black;
+   border: 1px solid white;
+}
+
+header h1
+{
+    float: Center;
+    font-size: 60px;
+}
+
+h1{
+    text-align: center;
+}
+.logo{
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 0%;
+}
+#bigPic{
+    float: left;
+    margin: 40px;
+    
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px; 
+    background-image: url(../images/aox-069532.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+aside {
+    background-color: lightgray;
+    padding: 100px;
+    border-right: 5px solid white;
+    width: 18.5%;
+    float: right;
+    color: black;
+    height: 100%;
+    margin-left: 0%;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    padding-bottom: 100%;
+}
+
+#aboutUs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+
+nav {
+    background-color: lightgrey;
+    padding: 5px;
+    border:5px solid white;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: black; 
+    text-decoration: none; 
+
+}
+
+aside ol li a:hover {
+    color: black; 
+    text-decoration: none; 
+}
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+aside ol li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+aside ul{
+    text-decoration: none;
+    text-align: left;
+}
+ul{
+    list-style: none; 
+    padding: 20px; 
+}
+ol{
+    list-style: none;
+    text-align: left;
+    padding-left: 0%;
+    padding-top: 100%;
+
+}
+
+h5{
+    color: white;
+    
+}
+section p{
+    color: white;
+    padding: 15px;
+    padding-right: 300px;
+}
+section a{
+    color: blue;
+}
+
+#content{
+    float: right;
+    width: 80%;
+    border: 1px solid grey;
+    
+}
+.green{
+    padding: 20px;
+}
+footer{
+   text-align: center;
+    border: 1px solid white;
+    padding: 15px;
+}
+img{
+    width: 500px;
+    height: 500px;
+    color: black;
+    border: 1px solid white;
+}
+h2{
+    color: white;
+}
+
+.bullet{
+text-align: left;
+margin-left: 0%;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid black; 
+    margin-right: 10px;
+    background-color: white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid black; /
+   
+}
+
+th {
+    background-color: lightgrey;
+}
+#top{
+ text-decoration: none;
+ color: black;
+}
+
+footer a{
+    padding: 3px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+
+footer ul a:hover{
+    color: blue; /* Change the text color on hover */
+    text-decoration: none;
+
+
+}
+header ul a{
+    padding: 3px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+header ul a:hover{
+    color: blue; 
+    text-decoration: none;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+iframe{
+    border: 3px solid white;
+    width:600px; 
+    height: 450px;; 
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
